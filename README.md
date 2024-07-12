@@ -8,7 +8,7 @@
 
 The Contact Management System is a CLI application that allows the user to easily create and manage a contact list in a simple manner.
 
-## Main Features
+### Main Features
 
 - **Add a new contact**: With the ```Add a new contact``` feature, the user can add contacts one at a time. They can enter the contact's name, phone number, and email address, as well as any additional info they see fit (notes, address, etc.), if desired.
 - **Edit an existing contact**: With the ```Edit an existing contact``` feature, the user can edit a selected contact within their list. They can change the contact's name, phone number, email address, and/or additional info.
@@ -17,11 +17,11 @@ The Contact Management System is a CLI application that allows the user to easil
 - **Display all contacts**: With the ```Display all contacts``` feature, the user can display their contact list in a formatted, easy-to-read manner.
 - **Export contacts to a text file**: With the ```Export contacts to a text file``` feature, the user can create a text file to export their formatted contact list to.
 
-## Bonus Features
+### Bonus Features
 
 - **Case Insensitivity**: Where applicable, all user inputs are case-insensitive.
 
-## UI
+### UI
 
 When the user first runs the Contact Management System, the following UI will display:
 
@@ -62,7 +62,7 @@ Email Address - janedoe@email.com
 Additional Info - consectetur adipisci elit
 ```
 
-## Errors
+### Errors
 
 The Contact Management System will raise ```ValueError```s with accompanying messages under the following circumstances:
 
@@ -73,6 +73,6 @@ The Contact Management System will raise ```ValueError```s with accompanying mes
 - If the user enters a non-numeric value when selecting a menu option.
 - If the user enters a numeric value that does not have a corresponding menu option when selecting a menu option.
 
-##
+#
 
 View the Contact Management System [GitHub Repository](https://github.com/JaycobHoffman1/mini-project-contact-management-system).
